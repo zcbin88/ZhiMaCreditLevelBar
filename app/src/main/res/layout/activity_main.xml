@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zcb.levelbarapplication.MainActivity">
+
+   <com.zcb.levelbarapplication.view.UserLevelView
+       android:id="@+id/userLevel"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"/>
+    <Button
+        android:layout_below="@id/userLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/suiji"
+        android:onClick="suiji"
+        android:visibility="gone"
+        android:text="随机"/>
+    <Button
+        android:text="较差"
+        android:layout_marginTop="50dp"
+        android:id="@+id/jiaocha"
+        android:layout_below="@id/suiji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="中等"
+        android:id="@+id/zhongdeng"
+        android:layout_below="@id/jiaocha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="良好"
+        android:id="@+id/lianghao"
+        android:layout_below="@id/zhongdeng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="优秀"
+        android:id="@+id/youxiu"
+        android:layout_below="@id/lianghao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="极好"
+        android:id="@+id/jihao"
+        android:layout_below="@id/youxiu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

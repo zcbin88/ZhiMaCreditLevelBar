@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="userlevels1">#FCDDAC</color>
+    <color name="userlevels2">#FCAB05</color>
+    <color name="gray">#ccc</color>
+
+
+    <color name="jiaocha_start">#f4643b</color>
+    <color name="jiaocha_end">#e85056</color>
+
+    <color name="zhongdeng_start">#f89d04</color>
+    <color name="zhongdeng_end">#f67106</color>
+
+    <color name="lianghao_start">#93d340</color>
+    <color name="lianghao_end">#26b02b</color>
+
+    <color name="youxiu_start">#02d5ae</color>
+    <color name="youxiu_end">#03bcc4</color>
+
+    <color name="jihao_start">#47e3d3</color>
+    <color name="jihao_end">#009deb</color>
+
+
+
+</resources>
